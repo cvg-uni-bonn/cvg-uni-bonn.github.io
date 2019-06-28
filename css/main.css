@@ -1,0 +1,101 @@
+.roboto{
+    font-family: Roboto;
+}
+
+.condensed{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.personal-img{
+    height: 200px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.proj-img{
+    width: 200px;
+}
+
+.pull-down{
+    margin-top: 50px;
+}
+
+.pull-down-medium{
+    margin-top: 25px;
+}
+
+.pull-down-little{
+    margin-top: 5px;
+}
+
+.pull-down-small{
+    margin-top: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-v{
+    vertical-align: middle;
+}
+
+.social-links:hover{
+    text-decoration: none;
+}
+
+.paper-thumb{
+    width: 200px;
+    /* margin-bottom: 50px; */
+}
+
+.post-link{
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: #00A8C6;
+}
+
+.date{
+    color: rgba(1, 1, 1, 0.25);
+    float: right;
+    font-family: monospace;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000 !important;
+}
+
+.video-js {padding-top: 56.25%}
+.vjs-fullscreen {padding-top: 0px}
+
+@media only screen and (max-width:599px) {
+    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;}
+}
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .vjs-default-skin .vjs-big-play-button {left:25%;top:25%;width:50%;height:50%;font-size:5em;}
+}
+
+a.bibtex {
+    text-decoration-style: dashed;
+    text-decoration-color: grey;
+    text-decoration-line: underline;
+    color: grey;
+}
+
+pre.bibtext {
+    display: none;
+}
+
+a.disabled-link {
+  color: gray;
+  pointer-events: none;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
